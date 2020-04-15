@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li{
+    display: inline;
+    
+   
+}
+
+nav ul {
+    list-style: none;
+    top:10%;
+    position: relative;
+    
+}
+
+nav{
+    background-color: #00BFFF;
+    
+    
+    height: 120px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#cont{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 88%;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-width: 1px;
+    
+    border-radius: 3px;
+    border-right-style: ridge;
+    border-color: red;
+    border-left-style: ridge;
+   
+
+     
+}
+body{
+    background-color: grey;
+}
+
+footer{
+    float: right;
+    padding-right: 2%;
+}

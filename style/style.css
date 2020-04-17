@@ -53,3 +53,19 @@ footer{
     float: right;
     padding-right: 2%;
 }
+
+#imgBuscar{
+    height: 40px;
+    
+}
+
+#formBuscar{
+    width: 30%;
+    
+}
+
+#btnBuscar{
+    
+    margin-left: 40%;
+}
+

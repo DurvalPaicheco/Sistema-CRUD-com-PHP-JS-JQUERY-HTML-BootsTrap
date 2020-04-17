@@ -18,9 +18,9 @@
         <ul>
             <li><h1>Sistema CRUD</h1></li>
             <li><button id="inserir" class="btn btn-dark" >Inserir</button></li>
-            <li><button name="Editar" class="btn btn-dark" >Editar</button></li>
-            <li><button name="Excluir" class="btn btn-dark">Excluir</button></li>
-            <li><button name="buscar" class="btn btn-dark" >Buscar</button></li>
+            <li><button id="editar" class="btn btn-dark" >Editar</button></li>
+            <li><button id="excluir" class="btn btn-dark">Excluir</button></li>
+            <li><button id="buscar" class="btn btn-dark" >Buscar</button></li>
         </ul>
     </nav>
     <!-- Div Cont, recebera dados vindo através do ajax quando utilizados os botões-->

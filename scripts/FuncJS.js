@@ -2,16 +2,12 @@
 
 $(document).ready(function(){
 
-    // carrega view de Inserir Dados
+    // carrega view de InserirDados
     $("#inserir").click(function(){
         $.get("/Crud-PHP-JavaScript/views/inserirdados.html", function(data){
             $("#cont").html(data);
         });
         
-    });
-
-    $("env").click(function(){
-        alert("quack");
     });
 
     //Carrega view de BuscarDados
@@ -20,9 +16,13 @@ $(document).ready(function(){
             $("#cont").html(data);
         });
     });
+
+
+    
 });
 
-function envDados(){
+function btnEnvDados(){
+   
     var formulario  = document.querySelector("form");
     formulario.addEventListener("submit", function(evento){
         evento.preventDefault();
@@ -30,6 +30,19 @@ function envDados(){
         alert(nome);
     });
 }
+
+function btnBuscarDados(){
+    
+    var formulario  = document.querySelector("form");
+    formulario.addEventListener("submit", function(evento){
+        evento.preventDefault();
+        
+    });
+    
+}
+
+
+
 
 
     

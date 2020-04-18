@@ -59,13 +59,7 @@ footer{
     
 }
 
-#formBuscar{
-    width: 30%;
-    
-}
-
-#btnBuscar{
-    
+.btn-outline-success{
     margin-left: 40%;
 }
 
